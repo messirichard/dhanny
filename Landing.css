@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOiCnqEu92Fr1Mu51QrIzc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjARc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu52xP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51S7ABc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBhc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TLBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1MmgWxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtvAw.ttf) format('truetype');
+}
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #ffffff;
+}
+body header {
+  display: inline;
+}
+body header nav {
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+body header nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 36px;
+}
+body header nav a {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #AEAEAE;
+}
+body header nav a .logoImage {
+  margin-right: 98px;
+  margin-left: -40px;
+  left: 0px;
+  width: 92px;
+  height: 32px;
+}
+body header nav a .loginImage {
+  width: 109px;
+  height: 47px;
+  margin-left: 555px;
+}
+.prelative.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  text-align: center;
+}
+section.home-sec-3 {
+  margin: 50px 0;
+}
+section.home-sec-3 .prelative.container .title {
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+section.home-sec-3 .prelative.container .title p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 130%;
+  color: #3E3E3E;
+}
+section.home-sec-3 .prelative.container .box-content {
+  webkit-box-shadow: 4px 4px 16px 0px rgba(71, 50, 50, 0.75);
+  -moz-box-shadow: 4px 4px 16px 0px rgba(71, 50, 50, 0.75);
+  box-shadow: 4px 4px 16px 0px rgba(71, 50, 50, 0.75);
+  padding: 40px 10px;
+}
+section.home-sec-3 .prelative.container .box-content h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 170%;
+  margin-bottom: 15px;
+}
+section.home-sec-3 .prelative.container .box-content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 170%;
+  max-width: 280px;
+  margin: 0 auto 25px;
+}
+section.home-sec-3 .prelative.container .box-content a {
+  color: #FFA800;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  border: #FFA800 1px solid;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+section.home-sec-3 .prelative.container .box-content:hover {
+  cursor: pointer;
+  top: -50px;
+  position: relative;
+  border-bottom: 5px solid #FFA800;
+}

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font: 'Roboto', sans-serif;
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: @font;
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+
+    header {
+        display: inline;
+
+        nav {
+            margin-top: 48px;
+            margin-bottom: 32px;
+
+            li {
+                display: inline;
+                list-style-type: none;
+                margin-right: 36px;
+            }
+
+            a {
+                font-size: 16px;
+                font-weight: 400;
+                text-decoration: none;
+                color: #AEAEAE;
+
+                .logoImage {
+                    margin-right: 98px;
+                    margin-left: -40px;
+                    left: 0px;
+                    width: 92px;
+                    height: 32px;
+                }
+
+                .loginImage {
+                    width: 109px;
+                    height: 47px;
+                    margin-left: 555px;
+                }
+
+            }
+        }
+    }
+}
+
+.prelative.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.home-sec-3 {
+    margin: 50px 0;
+
+    .prelative.container {
+        .title {
+            width: 350px;
+            margin: 0 auto;
+            margin-bottom: 90px;
+
+            p {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 130%;
+                color: #3E3E3E;
+            }
+        }
+
+        .box-content {
+            webkit-box-shadow: 4px 4px 16px 0px rgba(71, 50, 50, 0.75);
+            -moz-box-shadow: 4px 4px 16px 0px rgba(71, 50, 50, 0.75);
+            box-shadow: 4px 4px 16px 0px rgba(71, 50, 50, 0.75);
+            padding: 40px 10px;
+
+            h5 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 170%;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 170%;
+                // margin-bottom: 25px;
+                max-width: 280px;
+                margin: 0 auto 25px;
+            }
+
+            a {
+                color: #FFA800;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 150%;
+                border: #FFA800 1px solid;
+                padding: 10px 30px;
+                border-radius: 10px;
+                margin-top: 30px;
+            }
+        }
+        .box-content:hover{
+            cursor: pointer;
+            top: -50px;
+            position: relative;
+            border-bottom: 5px solid #FFA800;
+        }
+    }
+}
